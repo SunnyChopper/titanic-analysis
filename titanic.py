@@ -1,4 +1,4 @@
-# Multiple Linear Regression
+# Random forest classifier on titanic data set
 
 # Import the libraries
 import numpy as np
