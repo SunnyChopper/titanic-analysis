@@ -35,7 +35,7 @@ sc_X = StandardScaler()
 X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.transform(X_test)
 
-# Fit Multiple Linear Regression to data
+# Fit Random Forest Classifier to data
 from sklearn.ensemble import RandomForestClassifier
 regressor = RandomForestClassifier(n_estimators = 5, criterion = 'entropy', random_state = 0)
 regressor.fit(X_train, Y_train)
